@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> Should render heading 1`] = `
+.c0 {
+  font-size: 2.5rem;
+}
+
 <h1
-  class="styles__Title-sc-dzx1ao-2 igfAWE"
+  class="c0"
 >
   React avançado
 </h1>
