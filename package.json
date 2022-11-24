@@ -12,7 +12,9 @@
     "test:watch": "jest --watch",
     "storybook": "start-storybook -s public/ -p 6006",
     "build-storybook": "build-storybook -s public/",
-    "generate": "yarn plop --plopfile ./.plop/index.js"
+    "generate:lib": "yarn plop --plopfile ./.plop/lib-component.js",
+    "generate:app": "yarn plop --plopfile ./.plop/app-component.js",
+    "generate:view": "yarn plop --plopfile ./.plop/view-component.js"
   },
   "husky": {
     "hooks": {
