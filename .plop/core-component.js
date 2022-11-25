@@ -15,22 +15,22 @@ module.exports = function (plop) {
     actions: [
       {
         type: 'add',
-        path: '../src/components/app/{{pascalCase name}}/index.tsx',
+        path: '../src/components/core/{{pascalCase name}}/index.tsx',
         templateFile: 'templates/component.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/app/{{pascalCase name}}/styles.tsx',
+        path: '../src/components/core/{{pascalCase name}}/styles.tsx',
         templateFile: 'templates/styles.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/app/{{pascalCase name}}/{{pascalCase name}}.stories.tsx',
+        path: '../src/components/core/{{pascalCase name}}/{{pascalCase name}}.stories.tsx',
         templateFile: 'templates/stories.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/app/{{pascalCase name}}/{{pascalCase name}}.test.tsx',
+        path: '../src/components/core/{{pascalCase name}}/{{pascalCase name}}.test.tsx',
         templateFile: 'templates/component-test.hbs'
       }
     ]

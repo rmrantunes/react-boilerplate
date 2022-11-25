@@ -13,7 +13,7 @@
     "storybook": "start-storybook -s public/ -p 6006",
     "build-storybook": "build-storybook -s public/",
     "generate:lib": "yarn plop --plopfile ./.plop/lib-component.js",
-    "generate:app": "yarn plop --plopfile ./.plop/app-component.js",
+    "generate:core": "yarn plop --plopfile ./.plop/core-component.js",
     "generate:view": "yarn plop --plopfile ./.plop/view-component.js"
   },
   "husky": {
